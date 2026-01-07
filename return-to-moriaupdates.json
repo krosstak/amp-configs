@@ -25,7 +25,7 @@
     "UpdateSourceArgs": "MoriaServerConfig.ini",
     "OverwriteExistingFiles": true,
     "SkipOnFailure": false
-  }
+  },
   {
     "UpdateStageName": "Proton GE Download",
     "UpdateSourcePlatform": "Linux",
