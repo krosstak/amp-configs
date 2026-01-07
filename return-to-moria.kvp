@@ -43,6 +43,7 @@ App.RCONHeartbeatMinutes=0
 App.TelnetLoginFormat={0}
 App.SteamUpdateAnonymousLogin=True
 App.SteamForceLoginPrompt=False
+App.SteamForceWindowsVersion=True
 App.SupportsUniversalSleep=False
 App.WakeupMode=Any
 App.TemplateMatchRegex={{(\$?[\w]+)}}
