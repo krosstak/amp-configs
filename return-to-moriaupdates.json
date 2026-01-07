@@ -5,21 +5,27 @@
     "UpdateSource": "SteamCMD",
     "UpdateSourceData": "3349480",
     "UpdateSourceArgs": "2933130",
-    "UnzipUpdateSource": false,
-    "OverwriteExistingFiles": false,
-    "DeleteAfterExtract": true,
-    "OneShot": false
+    "ForceDownloadPlatform": "Windows",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "SteamCMD Component Download",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "1007",
+    "UpdateSourceTarget": "{{$FullBaseDir}}Moria/Binaries/Win64",
+    "SkipOnFailure": false
   },
   {
     "UpdateStageName": "MoriaServerConfig.ini Download",
     "UpdateSourcePlatform": "All",
     "UpdateSource": "FetchURL",
     "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/lotr-moriaserverconfig.ini",
-    "UnzipUpdateSource": false,
-    "OverwriteExistingFiles": false,
-    "DeleteAfterExtract": false,
-    "OneShot": false
-  },
+    "UpdateSourceTarget": "{{$FullBaseDir}}",
+    "UpdateSourceArgs": "MoriaServerConfig.ini",
+    "OverwriteExistingFiles": true,
+    "SkipOnFailure": false
+  }
   {
     "UpdateStageName": "Proton GE Download",
     "UpdateSourcePlatform": "Linux",
