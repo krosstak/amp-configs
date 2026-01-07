@@ -5,6 +5,7 @@
     "UpdateSource": "SteamCMD",
     "UpdateSourceData": "3349480",
     "UpdateSourceArgs": "2933130",
+    "OverwriteExistingFiles": false,
     "ForceDownloadPlatform": "Windows",
     "SkipOnFailure": false
   },
