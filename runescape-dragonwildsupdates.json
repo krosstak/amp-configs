@@ -1,0 +1,30 @@
+[
+  {
+    "UpdateStageName": "SteamCMD Download",
+    "UpdateSourcePlatform": "All",
+    "UpdateSource": "SteamCMD",
+    "UpdateSourceData": "4019830",
+    "UpdateSourceArgs": "1374490",
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "DedicatedServer.ini Download (Windows)",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://raw.githubusercontent.com/krosstak/amp-configs/master/runescape-dragonwildsserverconfig.ini",
+    "UpdateSourceTarget": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/WindowsServer",
+    "UpdateSourceArgs": "DedicatedServer.ini",
+    "OverwriteExistingFiles": false,
+    "SkipOnFailure": false
+  },
+  {
+    "UpdateStageName": "DedicatedServer.ini Download (Linux)",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://raw.githubusercontent.com/krosstak/amp-configs/master/runescape-dragonwildsserverconfig.ini",
+    "UpdateSourceTarget": "{{$FullBaseDir}}RSDragonwilds/Saved/Config/LinuxServer",
+    "UpdateSourceArgs": "DedicatedServer.ini",
+    "OverwriteExistingFiles": false,
+    "SkipOnFailure": false
+  }
+]
